@@ -6,7 +6,7 @@ const EmptyState = ({ hasFilters, clearFilters }) => {
         <h2>No Matching Orders</h2>
 
         <p>
-          No orders match your filters.
+          No orders match your current filters.
         </p>
 
         <button onClick={clearFilters}>
