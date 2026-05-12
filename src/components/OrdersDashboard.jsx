@@ -1,10 +1,10 @@
 
 import { useEffect, useState } from "react";
-import LoadingState from "./components/orders/LoadingState";
-import ErrorState from "./components/orders/ErrorState";
-import EmptyState from "./components/orders/EmptyState";
-import OrdersTable from "./components/orders/OrdersTable";
-import SummaryCards from "./components/orders/SummaryCards";
+import LoadingState from "../orders/LoadingState.jsx";
+import ErrorState from "../orders/ErrorState.jsx";
+import EmptyState from "../orders/EmptyState.jsx";
+import OrdersTable from "../orders/OrdersTable.jsx";
+import SummaryCards from "../orders/SummaryCards.jsx";
 
 const OrdersDashboard = () => {
   const [orders, setOrders] = useState([]);
